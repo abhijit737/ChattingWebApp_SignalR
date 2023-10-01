@@ -1,0 +1,7 @@
+﻿@model ChattingWebApp_SignalR.ConnectedUsers;
+
+<div class="col-2"><h2>Online Connected User</h2></div>
+@foreach(var user in ChattingWebApp_SignalR.ConnectedUsers.myConnectedUsers)
+{
+    <li>@user;</li>
+}
